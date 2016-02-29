@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Norman Greenberg</title>
+<!--Favicon Icon-->
+<link rel="shortcut icon" href="#">
+
+<!--CSS3/JQUERY TRANSITIONS-->
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+
+<!-- Bootstrap -->
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <!--CSS-->
+ 
+<!--Google Font-->
+<link href='https://fonts.googleapis.com/css?family=Rubik:400,700|Khula:700,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<!--SCRIPT-->
+<script>
+$(document).ready(function(){
+	
+    $("#projects").click(function(){
+        $("#content1,#content3,#content4").fadeOut("slow");
+        $("#content2").delay(800).fadeIn("slow");
+    });
+	$("#home").click(function(){
+        $("#content2,#content3,#content4").fadeOut("slow");
+        $("#content1").delay(800).fadeIn("slow");
+    });
+	$("#resume").click(function(){
+        $("#content1,#content2,#content4").fadeOut("slow");
+        $("#content3").delay(800).fadeIn("slow");
+    });
+	$("#contact").click(function(){
+        $("#content1,#content2,#content3").fadeOut("slow");
+        $("#content4").delay(800).fadeIn("slow");
+    });
+});
+</script>
+
+</head>
+
+<body>
+<header>
+<img src="files/logo.png" class="logo" width="7px" "alt="Norman">
+<nav class="cl-effect-21" style="float:right;">
+	<a href="#" id="home" data-hover="Home" ><span>Home</span></a>
+	<a href="#" id="projects" data-hover="Projects"><span>Projects</span></a>
+	<a href="#" id="resume" "data-hover="Resume"><span>Resume</span></a>
+	<a href="#" id="contact" data-hover="Contact"><span>Contact</span></a>
+</nav>
+<div id="triangle-down"></div>
+</header>
+
+<article>
+<div id="content1">
+<h1>Norman Greenberg<br>
+<span style="font-size:40px;">Game Developer & Designer</span></h1>
+<!--Home/Who is Norman Greenberg -->
+<!--If you want a picture delete comment 
+<img src ="#" style="float:right;margin-right:100px;" alt="Norman Greenberg" />
+-->
+<p>Lorem ipsum dolor sit amet, ei soluta prompta vel, dolore legere reprehendunt qui no. Ad his fuisset periculis,
+ feugiat molestie et vel. Harum ubique option eum an, vel et prima dolor. Id vix solum apeirian repudiare, vis nusquam scribentur at, mea eu semper tacimates dignissim. 
+ Ei mea vocibus omnesque.
+
+Cu usu dicant explicari principes. Sea ex putent argumentum dissentias. Qualisque salutatus vel eu, ex mazim vocibus omnesque nec. Ei quo essent delicata constituto.
+ Appareat deserunt te cum. Mutat dicta qualisque ad usu, causae offendit sit an.Eam autem deterruisset te. Modo simul definiebas ea mea, pro eu salutatus prodesset, 
+ vitae lucilius mel ut. Nec nusquam appetere omittantur no, ut illum corpora eleifend qui. Eu ubique dictas aperiam eam, clita causae euripidis ius ne
+ <br><br>
+
+Oratio homero postulant ne pro. Alii nulla cu has. Ad eos ridens iriure vulputate, te cum veniam omittam. Assum affert appetere mea ut, ad zril lucilius maiestatis eos.
+Mel et adhuc dolore dissentias. In nostro impetus vel, pri graeco diceret et. Has eripuit nonumes admodum et, ne aliquid percipit constituto nam. Eu populo audire 
+mentitum his, mea ea dolore viderer persequeris, ex aeterno scaevola legendos qui. No posse impetus definitionem mea, simul ancillae conceptam ne ius, quod magna
+ definitionem ei pro. An error soluta usu, eum putant suscipiantur eu. Quo an omnes iudico possit, minimum vituperata ne cum.
+ </p></div>
+<div id="content2">
+<div class="hover">
+<h1>PROJECTS</h1>
+<a data-toggle="modal" href="#HexesModal"><img src="files/hexes.jpg" class ="projpic" height="300px"width = "500px" alt="hexes"></a>
+<a data-toggle="modal" href="#SBModal"><img src="files/soulbound.png" class ="projpic" height="300px"width = "500px"alt="hexes"></a>
+<a data-toggle="modal" href="#HaxxModal"><img src="files/hax_12.png" class ="projpic" height="300px" width = "500px"alt="hexes"></a>
+<a data-toggle="modal" href="#LevelModal"><img src="files/Unity_22.png"class ="projpic" height="300px"width = "500px" alt="hexes"></a>
+
+</div>
+
+	
+	
+<!-- Hexes Modal -->
+  <div class="modal fade" id="HexesModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Hexes Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">Hexes!!</h1>
+        </div>
+        <div class="modal-body">
+		<img style = "float:left;padding-right:20px;"src="files/FlirtyBirdy.png" height="400px">
+		<h3>A Wacky, Wild Card Game</h3>
+          <p style="">Lorem ipsum dolor sit amet, ut pellentesque ante non amet, sed tortor nonummy placerat rutrum, placerat ea urna mollis. Vestibulum laoreet integer odio blandit. Sit ut hendrerit adipiscing integer, consectetuer mollis maecenas, ante etiam rutrum ornare, elit viverra sit vehicula, ac donec dictum metus porta volutpat. Dignissim massa a phasellus conubia. Id class nibh aenean sed, faucibus eros mauris cum fermentum ac, tortor id ut. Tristique malesuada nascetur dolor donec, vivamus aliquam, etiam tempor tellus suspendisse, quam ultrices. Quam sodales leo lacus magna turpis, fermentum nibh dolorem eget. Iste non sodales id, ultricies nisl praesentium sit nibh cum morbi. Turpis wisi in, arcu nec, magnis libero mauris vitae, et convallis et. Fusce eu eget id consectetur justo lacus, dolor nibh vestibulum at pretium class, porro occaecati venenatis, vivamus vestibulum sem vel purus accumsan neque. Leo varius vel, et per dui, temporibus sed cursus in massa. Velit enim, sociosqu neque eu consectetuer orci praesent sed.</p>
+        <a href="##">Link to XXX</a>
+		</div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+  <!-- Soul Bound Modal -->
+  <div class="modal fade" id="SBModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Soul Bound content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">Soul Bound</h1>
+        </div>
+        <div class="modal-body">		
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum ex. Suspendisse potenti. Pellentesque interdum molestie nisi eget bibendum. Integer eleifend a quam pulvinar semper. Mauris bibendum nulla nisl, eu lobortis augue lacinia in. Nam interdum mollis massa, eu sollicitudin eros consequat et. Proin finibus ante at magna porta, in pharetra dui convallis. Donec hendrerit consequat urna, id feugiat dui. Pellentesque varius tincidunt tortor sed mollis. Morbi semper magna at porta condimentum.
+		</p>
+		<img src="files/sbscreen.png" alt="Soul Bound Screen" width="100%"; />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Haxx Modal -->
+  <div class="modal fade" id="HaxxModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Haxx Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">Hax</h1>
+        </div>
+        <div class="modal-body">
+		
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum ex. Suspendisse potenti. Pellentesque interdum molestie nisi eget bibendum. Integer eleifend a quam pulvinar semper. Mauris bibendum nulla nisl, eu lobortis augue lacinia in. Nam interdum mollis massa, eu sollicitudin eros consequat et. Proin finibus ante at magna porta, in pharetra dui convallis. Donec hendrerit consequat urna, id feugiat dui. Pellentesque varius tincidunt tortor sed mollis. Morbi semper magna at porta condimentum.
+
+</p>
+<img src="files/Hax_3.png" alt="Soul Bound Screen" width="100%";>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+ <!-- Level Design Modal -->
+  <div class="modal fade" id="LevelModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Level content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">Level Design</h1>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non pretium odio. Pellentesque accumsan in lectus eu euismod. Suspendisse diam dolor, hendrerit et eros vitae, aliquet tincidunt tellus. Maecenas placerat risus in ipsum vulputate, vel lobortis nunc facilisis. Pellentesque eu hendrerit nisl. Fusce aliquet lectus at orci malesuada consequat. Phasellus at orci nunc. Duis vestibulum, nisl at eleifend volutpat, mi diam rutrum nisi, ac pretium velit orci quis leo. Sed dictum in leo et porttitor. Nunc erat neque, lobortis nec viverra ut, maximus quis eros. Integer a ipsum lectus. Quisque dictum leo nec urna porttitor cursus. Vestibulum elementum nisi sed eros sagittis hendrerit. Nulla massa justo, tristique eget rutrum at, posuere eu eros. Praesent convallis pharetra faucibus.</p>
+        <img src="files/Unity_4.png" alt="Soul Bound Screen" width="100%";>
+		</div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+  
+
+</div>
+
+<!--RESUME-->
+<div id="content3">
+<h1 style="margin-top:-30px;margin-left:30px;text-align:center;">Resume</h1>
+<p style="text-align:center; margin-top:-20px;"><a href="files/Resume.pdf" style="text-decoration:none; color:aqua;">Download</a></p>
+<div style="margin:0 auto; text-align:center;">
+<embed src="files/Resume.pdf" width="80%" height="900px;" alt="pdf" align="middle">
+</div>
+</div>
+
+
+<!--CONTACT-->
+
+<div id="content4">
+<h1>Contact Information</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non pretium odio. Pellentesque accumsan in lectus eu euismod. Suspendisse diam dolor, hendrerit </p>
+<h2>Contact Information</h2>
+<p>Email: </p>
+<p>Phone Number: </p>
+<h2>Social Media</h2>
+<p>LinkedIn: </p>
+<p>Github: </p>
+<p>Dev Blog: </p>
+</div>
+</article>
+
+<footer>
+<p>&copy; Made by <a href="http://www.ajmdev.space">Aaron Miller</a> 2015 - <?php echo date("Y") ?>.</p></footer>
+
+
+</body>
+
+
+</html>
